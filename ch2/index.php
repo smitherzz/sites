@@ -4,7 +4,7 @@ ini_set ( "display_errors" , 1 );
 
 include_once "classes/Page_Data.class.php";
 $pageData = new Page_Data();
-//$pageData = new stdClass();
+
 $pageData->title = "Thomas Blom Hansen: Portfolio site";
 $pageData->content = include_once "views/navigation.php";
 $pageData->css = "<link href='css/layout.css' rel='stylesheet' />";
